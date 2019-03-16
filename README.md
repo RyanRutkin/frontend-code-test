@@ -56,7 +56,7 @@ Example Response:
 }
 ```
 
-##POST /game-action
+## POST /game-action
 
 **POST /game-action** requires that you pass four parameters:
 
@@ -93,13 +93,13 @@ Example Response:
 }
 ```
 
-##Goals
+## Goals
 
 To complete this code test, please create a directory called `frontend` at the base of the repository.
 
 Once created, please create an application that allows a user to create a new tic-tac-toe game, join an existing tic-tac-toe game, and play a tic-tac-toe game.
 
-##Optional Goals (Bonus points)
+## Optional Goals (Bonus points)
 * Determine when a game has been completed
 ⋅⋅⋅Either in the web application or the server, determine whe a game has been won, display the winner, and prevent any further actions to the game.
 * List the existing game
