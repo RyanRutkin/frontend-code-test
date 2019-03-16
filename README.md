@@ -104,3 +104,5 @@ Once created, please create an application that allows a user to create a new ti
 ⋅⋅⋅Either in the web application or the server, determine whe a game has been won, display the winner, and prevent any further actions to the game.
 * List the existing game
 ⋅⋅⋅Create a new endpoint to serve the list of existing games by id. Show the list in the frontend application and allow a user to join a game by some sort of click action on the list item.
+* Create the app using Angular
+⋅⋅⋅Though any JavaScript based frontend technology will be accepted, we encourage you to create the app using the Angular framework, verion 6 or higher. Feel free to use the [Angular quickstart guide](https://angular.io/guide/quickstart).
