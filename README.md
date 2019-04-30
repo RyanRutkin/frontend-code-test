@@ -1,6 +1,6 @@
 This project has been created as a coding challenge for a front-end developer.
 
-Included is a small and simple web server, built in NodeJS.
+Included is a small and simple web server, built in NodeJS with Express.
 
 Please make sure that a recent version of NodeJS is installed on your machine.
 
@@ -98,6 +98,10 @@ Example Response:
 To complete this code test, please create a directory called `frontend` at the base of the repository.
 
 Once created, please create an application that allows a user to create a new tic-tac-toe game, join an existing tic-tac-toe game, and play a tic-tac-toe game.
+
+This can simply be a one page application, where the URL is **/game/{ player_id }**.
+
+If you have any questions, please reach out for help.
 
 ## Optional Goals (Bonus points)
 * Determine when a game has been completed
