@@ -64,6 +64,7 @@ Example Response:
 * player (must be either X or O)
 * x (integer between 0 and 2)
 * y (integer between 0 and 2)
+
 If the parameters are valid, a game by the provided **game_id** exists, and the position requested is not already taken, the game data will be updated to set the provided player in the requested position.
 
 Upon success, the `game` will be returned.
