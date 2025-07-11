@@ -100,14 +100,12 @@ To complete this code test, please create a directory called `frontend` at the b
 
 Once created, please create an application that allows a user to create a new tic-tac-toe game, join an existing tic-tac-toe game, and play a tic-tac-toe game.
 
-This can simply be a one page application, where the URL is **/game/{ player_id }**.
+This can simply be a one page application, where the URL is **/game/{game_id}/{ player_id }**.
 
 If you have any questions, please reach out for help.
 
 ## Optional Goals (Bonus points)
 * Determine when a game has been completed
-⋅⋅⋅Either in the web application or the server, determine whe a game has been won, display the winner, and prevent any further actions to the game.
+⋅⋅⋅Either in the web application or the server, determine when a game has been won, display the winner, and prevent any further actions to the game.
 * List the existing game
 ⋅⋅⋅Create a new endpoint to serve the list of existing games by id. Show the list in the frontend application and allow a user to join a game by some sort of click action on the list item.
-* Create the app using Angular
-⋅⋅⋅Though any JavaScript based frontend technology will be accepted, we encourage you to create the app using the Angular framework, verion 6 or higher. Feel free to use the [Angular quickstart guide](https://angular.io/guide/quickstart).
