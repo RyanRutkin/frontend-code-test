@@ -33,7 +33,7 @@ _NOTE: The data array is always 3 x 3_
 
 This parameter is any string that you wish to use to specify a game.
 
-If a game by that id does not exist, one by that id will be created.
+If a game by that id does not exist, **one by that id will be created.**
 
 The `game` by that id will then be returned.
 
@@ -106,6 +106,10 @@ If you have any questions, please reach out for help.
 
 ## Optional Goals (Bonus points)
 * Determine when a game has been completed
-⋅⋅⋅Either in the web application or the server, determine when a game has been won, display the winner, and prevent any further actions to the game.
+   * Either in the web application or the server, determine when a game has been won, display the winner, and prevent any further actions to the game.
 * List the existing game
-⋅⋅⋅Create a new endpoint to serve the list of existing games by id. Show the list in the frontend application and allow a user to join a game by some sort of click action on the list item.
+   * Create a new endpoint to serve the list of existing games by id. Show the list in the frontend application and allow a user to join a game by some sort of click action on the list item.
+* Allow definable game size
+   * To be restful, our game create should not exist in the GET endpoint. Break out this functionality into a separate POST request. If the game by the provded game-id does not exist, return a 404
+   * When creating a game using the POST endpoint, accept a single field in the payload: **size**. This is an integer with a minimum of three. If a value less than 3 is provided, or if the field is ommitted, return a 400 Bad Request error.
+   * Alter the game completion validation logic to properly handle a game of any size. 
