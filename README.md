@@ -111,5 +111,5 @@ If you have any questions, please reach out for help.
    * Create a new endpoint to serve the list of existing games by id. Show the list in the frontend application and allow a user to join a game by some sort of click action on the list item.
 * Allow definable game size
    * To be restful, our game create should not exist in the GET endpoint. Break out this functionality into a separate POST request. If the game by the provded game-id does not exist, return a 404
-   * When creating a game using the POST endpoint, accept a single field in the payload: **size**. This is an integer with a minimum of three. If a value less than 3 is provided, or if the field is omitted, return a 400 Bad Request error.
+   * When creating a game using the POST endpoint, accept a name field and a **size** field in the payload. Size is an integer with a minimum of three. If a value less than 3 is provided, or if the field is omitted, return a 400 Bad Request error.
    * Alter the game completion validation logic to properly handle a game of any size. 
